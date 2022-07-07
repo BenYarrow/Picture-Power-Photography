@@ -1,0 +1,199 @@
+* {
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url('https://cdn.wallpapersafari.com/68/97/aEjiwS.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+/* Header Section */
+
+.title a {
+	font-family: 'Syncopate', sans-serif;
+	font-size: 1.75rem;
+	color: hsla(207, 74%, 39%, 0.72);
+	margin-left: 2rem;
+	background: transparent;
+	text-decoration: underline;
+	padding-bottom: .25rem;
+	transition: all 0.3s ease 0s;
+}
+
+.title a:hover {
+	font-size: 1.95rem;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+	border-bottom: 2px solid whitesmoke;
+	background-color: hsla(183, 88%, 91%, 0.535);
+}
+
+.nav-links {
+	list-style: none;
+	margin-right: .5rem;
+}
+
+.nav-links li {
+	display: inline-block;
+	flex-shrink: 0;
+	margin-right: 2rem;
+}
+
+.nav-links li a {
+	transition: all 0.3s ease 0s;
+	font-family: 'Darker Grotesque', sans-serif;
+	font-size: 1.5rem;
+	color: whitesmoke;
+	text-decoration: underline;
+	font-weight: 600;
+	background-color: hsla(207, 74%, 39%, 0.72);
+	padding: 5px;
+	border-radius: 10px;
+}
+
+.nav-links li a:hover {
+	font-size: 1.85rem;
+	color: hsla(182, 44%, 35%, 0.72);
+	background-color: hsla(183, 88%, 91%, 0.535);
+
+}
+
+
+@media only screen and (max-width: 760px) {
+
+	.title a {
+		font-size: 1rem;
+	}
+
+	.nav-links li a {
+		font-size: .8rem;
+	}
+}
+
+/* Main Section */
+
+.who-am-i {
+	font-family: 'Syncopate', sans-serif;
+	color: whitesmoke;
+	font-size: 1.5rem;
+	text-align: center;
+	width: auto;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+	text-decoration: underline;
+}
+
+.carl {
+	background-color: hsla(183, 88%, 91%, 0.535);
+	height: auto;
+	width: fit-content;
+	margin: auto;
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+}
+
+.carl h2 {
+	font-family: 'Syncopate', sans-serif;
+	color: whitesmoke;
+	font-size: 1.75rem;
+	background-color: hsla(207, 74%, 39%, 0.72);
+	padding: 1rem;
+	margin-top: 1rem;
+	text-align: center;
+}
+
+.about-carl {
+	background-color:  hsla(183, 88%, 91%, 0.535);
+	height: auto;
+	width: fit-content;
+	margin: 2rem 3rem 1.5rem 3rem;
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+}
+
+
+.about-carl p {
+	font-family: 'Darker Grotesque', sans-serif;
+	color: whitesmoke;
+	font-size: 1.45rem;
+	font-weight: 600;
+	background-color: hsla(207, 74%, 39%, 0.72);
+	padding: .25%;
+	margin: .5rem .5rem;
+	text-align: center;
+}
+
+.about p a {
+	color: whitesmoke;
+	font-size: 1.45rem;
+	text-transform: uppercase;
+}
+
+
+
+
+/*.carl img:hover {
+	height: 375px;
+} */
+
+
+/* Footer Section */
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+	border-top: 1px solid whitesmoke;
+	border-bottom: 1px solid whitesmoke;
+	background-color: hsla(183, 88%, 91%, 0.535);
+	margin-bottom: .5rem;
+	padding-bottom: .5rem;
+}
+
+.footer h2 {
+	font-family: 'Syncopate', sans-serif;
+	color: whitesmoke;
+	font-size: 1rem;	
+	text-decoration: underline;
+}
+
+.contact {
+	margin-left: 2rem;
+	text-align: center;
+}
+
+.footer li {
+	display: inline;
+	font-family: 'Darker Grotesque', sans-serif;
+	color: whitesmoke;
+	font-size: 1.25rem;	
+}
+
+.social-media {
+	margin-right: 2rem;
+	padding-top: 10px;
+}
+
+.social-media li a {
+	margin-right: 2rem;
+	
+}
+
+
